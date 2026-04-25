@@ -1,5 +1,5 @@
-Mối tương quan giữa độ tuổi của người vay và tình trạng vỡ nợ.
-1.Bài toán kinh tế(Hiểu bài toán kinh tế)
+# Mối tương quan giữa độ tuổi của người vay và tình trạng vỡ nợ.
+# 1.Bài toán kinh tế(Hiểu bài toán kinh tế)
 - Bài toán sẽ đi sau vào khai thác sự ảnh hưởng của độ tuổi đối với tình trạng vỡ nợ của từng nhóm người.
 - Độ tuổi được chia thành : 
 18 - 25 : Nhóm mới bắt đầu sự nghiệp
