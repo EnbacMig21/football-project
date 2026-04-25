@@ -6,4 +6,5 @@
 3. Xử lý dữ liệu các cầu thủ
 4. Mô hình hóa bài toán và các ràng buộc
 5. Mở rộng mô hình với hồ sơ đội bóng
-6. Ví dụ cụ thể 
+6. Ví dụ cụ thể
+# 1. Đặt vấn đề 
