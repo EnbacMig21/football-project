@@ -51,3 +51,5 @@ Trong đó:
 -(2): Mỗi vị trí có đúng một cầu thủ
 
 -(3): Mỗi cầu thủ chỉ đá tối đa một vị trí
+#III. Chạy mô hình 
+##[footballv6.py]()
