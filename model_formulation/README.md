@@ -40,4 +40,5 @@ $$
 
 $$
 x_{ij} \in \{0, 1\}, \quad \forall i \in I, j \in J \quad (3)
-$$Trong đó:
+$$
+Trong đó:
