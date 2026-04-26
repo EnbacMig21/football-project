@@ -44,3 +44,24 @@ $$
 $$
 
 ## Ví dụ minh họa 
+- # Ví dụ một vị trí nhiều kịch bản
+Xét kỹ năng tạt bóng của vị trí MC với 3 kịch bản :
+Tham số: q = Crossing, N = 3.
+Ràng buộc: 
+
+$$
+\sum_{i \in I_k} S_{i,Crossing}*x_{i,MC} \ge 7*y_{1}
+$$
+
+$$
+\sum_{i \in I_k} S_{i,Crossing}*x_{i,MC} \ge 8*y_{2}
+$$
+
+$$
+\sum_{i \in I_k} S_{i,Crossing}*x_{i,MC} \ge 6*y_{3}
+$$
+
+$$
+y_{1} + y_{2}+y_{3}=1,y_{1} ,y_{2},y_{3} \in \{0,1\}
+$$
+
