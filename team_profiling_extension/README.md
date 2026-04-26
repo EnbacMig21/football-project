@@ -65,3 +65,21 @@ $$
 y_{1} + y_{2}+y_{3}=1,y_{1} ,y_{2},y_{3} \in \{0,1\}
 $$
 
+- # Kịch bản về từng nhóm kịch bản chiến thuật
+Xét kịch bản trong nhóm tạt bóng: yêu cầu ít nhất một tiền vệ trung tâm (MCR, MC hoặc MCL) có kỹ năng tạt bóng ≥ 7.
+
+Tham số: j ∈ {MCR, MC, MCL}, q = Crossing
+
+Ràng buộc: 
+
+$$
+\sum_{i \in I_k} S_{i,Crossing}*x_{i,MCR} \ge 7*y_{1}
+$$
+
+$$
+\sum_{i \in I_k} S_{i,Crossing}*x_{i,MC} \ge 7*y_{1}
+$$
+
+$$
+\sum_{i \in I_k} S_{i,Crossing}*x_{i,MCL} \ge 7*y_{1}
+$$
