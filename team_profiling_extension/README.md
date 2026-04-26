@@ -6,3 +6,39 @@
 | Tạt bóng (Crosses) | Bao gồm 13 kịch bản ví dụ như:  ít nhất 1 cầu thủ có khả năng tạt bóng chính xác có thể là tiền vệ hoặc hậu vệ cánh,…. |
 | Cắt bóng (Interceptions) | Bao gồm 12 kịch bản: có ít nhất 1 tiền vệ trung tâm có kỹ năng cắt bóng chính xác,… |
 | Chuyền bóng (Passes) | Bao gồm 18 kịch bản VD: có ít nhất 1 hậu vệ có kỹ năng chuyền bóng,… |
+
+Lưu ý :Mỗi kịch bản k yêu cầu: ít nhất một cầu thủ ở một trong các vị trí được chỉ định có kỹ năng đạt ngưỡng yêu cầu.
+# Cấu trúc ràng buộc theo số điều kiện 
+Trong mô hình mở rộng, chúng ta cần xem xét các ràng buộc dựa trên số lượng điều kiện mà một kịch bản chiến thuật yêu cầu. Chúng ta gọi N là tổng số điều kiện ( kỹ năng x vị trí) phải được thỏa mãn trong một kịch bản chiến thuật cụ thể.
+## Trường hợp N = 1: Kịch bản chỉ có một điều kiện duy nhất
+
+
+$$
+\sum_{i \in I} S_{iq}* x_{ij} \ge grade_{j}
+$$
+
+## Trường hợp N = 2: Kịch bản có hai khả năng thỏa mãn, cần ít nhất một điều kiện đạt:
+
+$$
+\sum_{i \in I} S_{iq_{1}} *x_{ij_{1}} \ge grade_{j_{1}}*y
+$$
+
+$$
+\sum_{i \in I} S_{iq_{2}} *x_{ij_{2}} \ge grade_{j_{2}}*(1-y)
+$$
+
+$$
+\text{với }y \in \{0, 1\}
+$$
+
+## Trường hợp N > 2: Với N điều kiện, cần N biến nhị phân:
+
+$$
+\sum_{i \in I} S_{iq_{n}} *x_{ij_{n}} \ge grade_{j_{n}}*y_{n}, \text{           n=1,...,N}
+$$
+
+$$
+\sum_{i \in I} y_{n} = 1, \text{ với }y_{n} \in \{0, 1\},\text{           n=1,...,N}
+$$
+
+## Ví dụ minh họa 
