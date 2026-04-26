@@ -23,4 +23,16 @@
 | Short pass	 | Chuyền ngắn (Tổng quát)  |
 | Long Passes	 | Chuyền dài(Tổng quát)  |
 | Pressing	    | Áp sát, gây áp lực |
-## Bảng hệ số của các kỹ năng tại từng vị trí trên sân: [pos_weights_criteria.csv]()
+## Bảng hệ số của các kỹ năng tại từng vị trí trên sân: [pos_weights_criteria.csv](https://github.com/EnbacMig21/football-project/blob/main/processing-raw-data/origin-data/pos_weights_criteria.csv)
+| Tên hàng | Ý nghĩa |
+| GK	|Thủ môn  |
+| DR	| Hậu vệ cánh phải |
+| DCR	 |Trung vệ lệch phải  |
+| DCL	| Trung vệ lệch trái  |
+| DL	 | Hậu vệ cánh trái  |
+| MCR	 | Tiền vệ trung tâm lệch phải |
+| MC	| Tiền vệ trung tâm |
+| MCL	 | Tiền vệ trung tâm lệch trái  |
+| FR	| Tiền đạo cánh phải  |
+| FC	| Tiền đạo cắm  |
+| FL	| Tiền đạo cánh trái|
