@@ -8,7 +8,7 @@
 5. Mở rộng mô hình với hồ sơ đội bóng
 6. Ví dụ cụ thể
 # Danh mục nội dung 
-- [Đặt vấn đề]
+- [Đặt vấn đề]()
 ## 1. Đặt vấn đề 
 ### Giới thiệu chung 
 Bóng đá (soccer hay football) là những tên gọi phổ biến nhất cho môn bóng đá liên đoàn. Để phân biệt trò chơi với một số môn thể thao khác chơi bằng chân vào thế kỷ 18, tên gọi bóng đá liên đoàn đã được đặt ra. Các quy tắc hiện đại mà chúng ta quen thuộc ngày nay có nguồn gốc từ giữa thế kỷ 19. 
