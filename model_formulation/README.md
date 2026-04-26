@@ -5,8 +5,8 @@
 - Q: tập hợp tất cả các kỹ năng , q ∈ Q
 ## 2. Tham số 
 $$
-PS_{ij}*x_{ij}, \text{Điểm đánh giá của cầu thủ i khi chơi tại vị trí j}
+PS_{ij}*x_{ij}, \text{: Điểm đánh giá của cầu thủ i khi chơi tại vị trí j}
 $$
 $$
-ge grade_{j} \text{Ngưỡi yêu cầu tối thiểu cho vị trí j}
+ge grade_{j} \text{:  Ngưỡi yêu cầu tối thiểu cho vị trí j}
 $$
