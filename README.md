@@ -13,6 +13,17 @@
 ## 1. Đặt vấn đề 
 ### Giới thiệu chung 
 Bóng đá (soccer hay football) là những tên gọi phổ biến nhất cho môn bóng đá liên đoàn. Để phân biệt trò chơi với một số môn thể thao khác chơi bằng chân vào thế kỷ 18, tên gọi bóng đá liên đoàn đã được đặt ra. Các quy tắc hiện đại mà chúng ta quen thuộc ngày nay có nguồn gốc từ giữa thế kỷ 19. 
+### Tại sao cần xây dựng mô hình tối ưu hóa 
+Trong bóng đá truyền thống, việc lựa chọn đội hình thường dựa vào trực giác và kinh nghiệm cá nhân của Huấn luyện viên. Tuy nhiên, khi bóng đá trở thành một ngành công nghiệp trị giá hàng tỷ đô la, sai lầm trong việc dùng người hoặc chuyển nhượng có thể gây ra thiệt hại khổng lồ. Việc xây dựng mô hình tối ưu hóa là cấp thiết vì những lý do sau:
+- #### Loại bỏ định kiến cá nhân (Bias)
+  Mọi HLV đều có những thiên kiến nhất định về lối chơi hoặc sự yêu thích dành cho một vài cầu thủ. Mô hình toán học đóng vai trò như một "trọng tài khách quan", đánh giá cầu thủ dựa trên các con số cụ thể (bàn thắng kỳ vọng xG, tỷ lệ chuyền bóng, khả năng đánh chặn...), từ đó tìm ra những "viên ngọc thô" bị đánh giá thấp nhưng có đóng góp cực lớn vào lối chơi chung.
+- #### Giải quyết bài toán ràng buộc (Constraints Mapping)
+  Việc chọn đội hình không đơn giản là đưa 11 người giỏi nhất vào sân. Nó là một bài toán tối ưu với hàng loạt ràng buộc thực tế:
+Ngân sách: Tổng lương hoặc giá trị chuyển nhượng không được vượt quá quỹ của CLB.
+
+Sự tương thích: Các cầu thủ phải có bộ kỹ năng bổ trợ cho nhau (ví dụ: một tiền vệ kiến thiết cần đi đôi với một tiền đạo chạy chỗ thông minh).
+
+Chiến thuật: Phải đảm bảo đủ vị trí (GK, DF, MF, FW) theo sơ đồ đề ra.
 ## Mục tiêu 
 Trong bối cảnh bóng đá hiện đại, việc xây dựng đội hình tối ưu không chỉ dựa trên kinh nghiệm và cảm nhận của huấn luyện viên, mà ngày càng được hỗ trợ bởi các phương pháp phân tích dữ liệu và mô hình toán học. Việc tận dụng nguồn dữ liệu phong phú từ các trận đấu thực tế để đưa ra quyết định khách quan và khoa học đang trở thành một hướng nghiên cứu đầy tiềm năng. Từ đó giúp các đội bóng có những lựa chọn đúng đắn khi tham gia vào thị trường chuyển nhượng, tránh dư thừa hoặc thiếu hụt tại các vị trí.
 
