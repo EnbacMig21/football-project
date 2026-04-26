@@ -51,5 +51,9 @@ Trong đó:
 -(2): Mỗi vị trí có đúng một cầu thủ
 
 -(3): Mỗi cầu thủ chỉ đá tối đa một vị trí
+
+
 #III. Chạy mô hình 
-##[footballv6.py]()
+##[footballv6.py](https://github.com/EnbacMig21/football-project/blob/main/model_formulation/footballv6.py): Là mô hình tối ưu hóa được viết bằng ngôn ngữ Python.
+##[team_profile (2).csvteam_profile (2).csv](https://github.com/EnbacMig21/football-project/blob/main/model_formulation/team_profile%20(2).csv): Là các kịch bản chiến thuật nhưng do đang xét mô hình cơ bản nên sẽ không có kịch bản nào trong file này. 
+## Kết quả sau khi chạy mô hình.
