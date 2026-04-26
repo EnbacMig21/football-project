@@ -25,6 +25,7 @@
 | Pressing	    | Áp sát, gây áp lực |
 ## Bảng hệ số của các kỹ năng tại từng vị trí trên sân: [pos_weights_criteria.csv](https://github.com/EnbacMig21/football-project/blob/main/processing-raw-data/origin-data/pos_weights_criteria.csv)
 | Tên hàng | Ý nghĩa |
+|--------------	|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | GK	|Thủ môn  |
 | DR	| Hậu vệ cánh phải |
 | DCR	 |Trung vệ lệch phải  |
