@@ -10,7 +10,7 @@
 | Long pass back	| Chuyền dài về phía sau |
 | Long pass forward	| Chuyền dài lên phía trước  |
 | Long pass wide	| Chuyền dài ra biên  | 
-| Cross	 | tạt bóng  |
+| Cross	 | Tạt bóng  |
 | Heading	 | Đánh đầu  |
 | Finishing	 | Dứt điểm   | 
 | Long shot	 | Sút xa |
