@@ -4,7 +4,7 @@
 1. [Hiểu bài toán](https://github.com/EnbacMig21/football-project/blob/main/README.md#1-%C4%91%E1%BA%B7t-v%E1%BA%A5n-%C4%91%E1%BB%81)
 2. [Thu thập dữ liệu](https://github.com/EnbacMig21/football-project/tree/main/processing-raw-data/origin-data)
 3. [Xử lý dữ liệu các cầu thủ](https://github.com/EnbacMig21/football-project/tree/main/processing-raw-data/processed)
-4. Mô hình hóa bài toán và các ràng buộc
+4. [Mô hình hóa bài toán và các ràng buộc](https://github.com/EnbacMig21/football-project/tree/main/model_formulation)
 5. Mở rộng mô hình với hồ sơ đội bóng
 6. Ví dụ cụ thể
 # Danh mục nội dung 
