@@ -6,7 +6,7 @@
 ## 2. Tham số 
 
 
-$$
+- $$
 PS_{ij}*x_{ij}, \text{Điểm đánh giá của cầu thủ i khi chơi tại vị trí j}
 $$
 
