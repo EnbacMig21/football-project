@@ -58,6 +58,8 @@ Trong đó:
 ## [footballv6.py](https://github.com/EnbacMig21/football-project/blob/main/model_formulation/footballv6.py): Là mô hình tối ưu hóa được viết bằng ngôn ngữ Python.
 
 ## [team_profile (2).csv](https://github.com/EnbacMig21/football-project/blob/main/model_formulation/team_profile%20(2).csv): Là các kịch bản chiến thuật nhưng do đang xét mô hình cơ bản nên sẽ không có kịch bản nào trong file này. 
+
+## [player_position_scores.csv](https://github.com/EnbacMig21/football-project/blob/main/processing-raw-data/processed/player_position_scores.csv): Đây là dữ liệu của tất cả các cầu thủ, khi đá tại tất cả các vị trí trên sân .
 ## Kết quả sau khi chạy mô hình.
 | Vị trí     	| Tên cầu thủ | Số điểm |
 |--------------	|----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------|
