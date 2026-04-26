@@ -8,5 +8,5 @@ $$
 PS_{ij}*x_{ij}, \text{Điểm đánh giá của cầu thủ i khi chơi tại vị trí j}
 $$
 $$
-ge grade_{j}*y_{n}, \text{Ngưỡi yêu cầu tối thiểu cho vị trí j}
+ge grade_{j} \text{Ngưỡi yêu cầu tối thiểu cho vị trí j}
 $$
