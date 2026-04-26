@@ -5,7 +5,7 @@ import pandas as pd
 # 1. Load dữ liệu
 skills_df = pd.read_csv(r"C:\toi_uu_hoa\player_skills.csv")
 ps_df = pd.read_csv(r"C:\toi_uu_hoa\player_position_scores.csv")
-team_df = pd.read_csv(r"C:\toi_uu_hoa\team_profile (1).csv")
+team_df = pd.read_csv(r"C:\toi_uu_hoa\team_profile (2).csv")
 
 for df in [skills_df, ps_df, team_df]:
     df.columns = df.columns.str.strip()
