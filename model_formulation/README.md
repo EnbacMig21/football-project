@@ -4,5 +4,6 @@
 - J: tập hợp tất cả các vị trí trên sân, j ∈ J
 - Q: tập hợp tất cả các kỹ năng , q ∈ Q
 ## 2. Tham số 
-<img width="774" height="256" alt="image" src="https://github.com/user-attachments/assets/191c9fa2-9ddb-4b8b-b34a-53b4821640e7" />
+<img width="774" height="256" alt="image" src="https://github.com/user-attachments/assets/0bb24c3e-8590-415a-b277-3da55d09505f" />
+
 
