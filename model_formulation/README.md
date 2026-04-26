@@ -45,3 +45,8 @@ x_{ij} \in \{0, 1\}, \quad \forall i \in I, j \in J \quad (3)
 $$
 
 Trong đó:
+-(1): Tối đa hóa tổng điểm phù hợp vị trí
+
+-(2): Mỗi vị trí có đúng một cầu thủ
+
+-(3): Mỗi cầu thủ chỉ đá tối đa một vị trí
