@@ -4,6 +4,14 @@
 - J: tập hợp tất cả các vị trí trên sân, j ∈ J
 - Q: tập hợp tất cả các kỹ năng , q ∈ Q
 ## 2. Tham số 
-<img width="774" height="256" alt="image" src="https://github.com/user-attachments/assets/0bb24c3e-8590-415a-b277-3da55d09505f" />
+
+
+$$
+PS_{ij}*x_{ij} 
+$$
+
+$$
+ \text{s.t.}\sum_{i \in I} x_{ij} = 1, \quad \forall j \in J \quad  (1)
+$$
 
 
