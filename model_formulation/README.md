@@ -26,6 +26,8 @@ y_{k} \text{: Biến nhị phân cho kịch bản chiến thuật k ∈ K}
 $$
 # II. Mô hình tối ưu hóa cơ bản 
 Mô hình cơ bản không xét đến yêu cầu chiến thuật:
+
+
 $$
 \text{Max } \sum_{i \in I} \sum_{j \in J} PS_{ij}*x_{ij} 
 $$
