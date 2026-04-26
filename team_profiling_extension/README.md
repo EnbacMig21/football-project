@@ -83,30 +83,29 @@ $$
 # Mô hình tổng quát 
 Khi tất cả các kịch bản chiến thuật đều chỉ có một điều kiện duy nhất (N=1), mô hình quy hoạch số nguyên hoàn chỉnh sẽ là:
 
+
 $$
 
       \text{Maximize } \sum_{i \in I} \sum_{j \in J} PS_{ij}x_{ij}
     
 $$
 
+
 Với các ràng buộc:
 
-$$
-
-      \sum_{i \in I} x_{ij} = 1, \quad \forall j \in J \quad 
-    
-$$
 
 $$
-
-      \sum_{j \in J} x_{ij} \le 1, \quad \forall i \in I \quad 
-    
+\sum_{i \in I} x_{ij} = 1, \quad \forall j \in J \quad 
 $$
 
+
+$$
+\sum_{j \in J} x_{ij} \le 1, \quad \forall i \in I \quad 
 $$
 
-\sum_{i \in I} S_{iq}* x_{ij} \ge grade_{j} ,\forall (j,q) \in S
-   
+
+$$
+\sum_{i \in I} S_{iq}* x_{ij} \ge grade_{j} ,\forall (j,q) \in S 
 $$
 
 $$
