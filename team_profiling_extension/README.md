@@ -85,9 +85,7 @@ Khi tất cả các kịch bản chiến thuật đều chỉ có một điều 
 
 
 $$
-
-      \text{Maximize } \sum_{i \in I} \sum_{j \in J} PS_{ij}x_{ij}
-    
+\text{Max } \sum_{i \in I} \sum_{j \in J} PS_{ij}x_{ij}
 $$
 
 
