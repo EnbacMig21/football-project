@@ -6,6 +6,7 @@
 3. [Xử lý dữ liệu các cầu thủ](https://github.com/EnbacMig21/football-project/tree/main/processing-raw-data/processed)
 4. [Mô hình hóa bài toán và các ràng buộc](https://github.com/EnbacMig21/football-project/tree/main/model_formulation)
 5. [Mở rộng mô hình với hồ sơ đội bóng]()
+
 Trong file README.md này sẽ là giải thích thứ tự file nên đọc theo và giải thích tổng quan về mỗi file sẽ bao gồm những gì. File cũng sẽ có một danh mục nội dung phía dưới đây để phục vụ cho việc tra cứu.
 # Danh mục nội dung 
 - [Đặt vấn đề](https://github.com/EnbacMig21/football-project/blob/main/README.md#1-%C4%91%E1%BA%B7t-v%E1%BA%A5n-%C4%91%E1%BB%81)
