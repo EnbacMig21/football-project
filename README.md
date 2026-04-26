@@ -11,7 +11,7 @@
 - [Đặt vấn đề](https://github.com/EnbacMig21/football-project/blob/main/README.md#1-%C4%91%E1%BA%B7t-v%E1%BA%A5n-%C4%91%E1%BB%81)
 - [Mục tiêu phân tích](https://github.com/EnbacMig21/football-project/blob/main/README.md#m%E1%BB%A5c-ti%C3%AAu)
 - [Giải thích](https://github.com/EnbacMig21/football-project/blob/main/README.md#gi%E1%BA%A3i-th%C3%ADch)
-- [Lời kết]()
+- [Lời kết](https://github.com/EnbacMig21/football-project/blob/main/README.md#gi%E1%BA%A3i-th%C3%ADch)
 ## 1. Đặt vấn đề 
 ### Giới thiệu chung 
 Bóng đá (soccer hay football) là những tên gọi phổ biến nhất cho môn bóng đá liên đoàn. Để phân biệt trò chơi với một số môn thể thao khác chơi bằng chân vào thế kỷ 18, tên gọi bóng đá liên đoàn đã được đặt ra. Các quy tắc hiện đại mà chúng ta quen thuộc ngày nay có nguồn gốc từ giữa thế kỷ 19. 
