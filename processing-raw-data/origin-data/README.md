@@ -23,3 +23,4 @@
 | Short pass	 | Chuyền ngắn (Tổng quát)  |
 | Long Passes	 | Chuyền dài(Tổng quát)  |
 | Pressing	    | Áp sát, gây áp lực |
+## Bảng hệ số của các kỹ năng tại từng vị trí trên sân: [pos_weights_criteria.csv]()
