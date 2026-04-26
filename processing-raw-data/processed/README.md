@@ -4,3 +4,14 @@ Chúng ta có bảng [player_skill.csv](https://github.com/EnbacMig21/football-p
 | Tên cột      	| Ý nghĩa|
 |--------------	|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | Player        	| Tên của các cầu thủ |
+| GK	|Thủ môn  |
+| DR	| Hậu vệ cánh phải |
+| DCR	 |Trung vệ lệch phải  |
+| DCL	| Trung vệ lệch trái  |
+| DL	 | Hậu vệ cánh trái  |
+| MCR	 | Tiền vệ trung tâm lệch phải |
+| MC	| Tiền vệ trung tâm |
+| MCL	 | Tiền vệ trung tâm lệch trái  |
+| FR	| Tiền đạo cánh phải  |
+| FC	| Tiền đạo cắm  |
+| FL	| Tiền đạo cánh trái|
