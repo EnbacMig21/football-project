@@ -79,3 +79,48 @@ $$
 \sum_{i \in I_k} S_{i,Crossing} \cdot x_{i,MCL} &\ge 7 \cdot y_{1}
 \end{aligned}
 $$
+
+# Mô hình tổng quát 
+Khi tất cả các kịch bản chiến thuật đều chỉ có một điều kiện duy nhất (N=1), mô hình quy hoạch số nguyên hoàn chỉnh sẽ là:
+
+$$
+
+      \text{Maximize } \sum_{i \in I} \sum_{j \in J} PS_{ij}x_{ij}
+    
+$$
+
+Với các ràng buộc:
+
+$$
+
+      \sum_{i \in I} x_{ij} = 1, \quad \forall j \in J \quad 
+    
+$$
+
+$$
+
+      \sum_{j \in J} x_{ij} \le 1, \quad \forall i \in I \quad 
+    
+$$
+
+$$
+
+\sum_{i \in I} S_{iq}* x_{ij} \ge grade_{j} ,\forall (j,q) \in S
+   
+$$
+
+$$
+\sum_{i \in I} S_{iq}* x_{ij} \ge grade_{j} ,\forall (j,q) \in Y
+$$
+
+$$
+\sum_{i \in I} S_{iq}* x_{ij} \ge grade_{j} ,\forall (j,q) \in C
+$$
+
+$$
+\sum_{i \in I} S_{iq}* x_{ij} \ge grade_{j} ,\forall (j,q) \in P
+$$
+
+Trong đó:
+
+với S, Y, C, P  lần lượt là tập các cặp (vị trí, kỹ năng) cho tấn công, phòng ngự và chuyền bóng
