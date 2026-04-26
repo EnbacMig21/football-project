@@ -72,4 +72,6 @@ Trong đó:
 | FR | Eriksen | 76.85 |
 | FC | Ebecilio|  60.36 |
 | FL |  Suarez | 55.42 |
-Total Score: 821.5200000000001
+
+
+Total Score: 821.52
