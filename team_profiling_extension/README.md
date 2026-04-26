@@ -73,13 +73,9 @@ Tham số: j ∈ {MCR, MC, MCL}, q = Crossing
 Ràng buộc: 
 
 $$
-\sum_{i \in I_k} S_{i,Crossing}*x_{i,MCR} \ge 7*y_{1}
-$$
-
-$$
-\sum_{i \in I_k} S_{i,Crossing}*x_{i,MC} \ge 7*y_{1}
-$$
-
-$$
-\sum_{i \in I_k} S_{i,Crossing}*x_{i,MCL} \ge 7*y_{1}
+\begin{aligned}
+\sum_{i \in I_k} S_{i,Crossing} \cdot x_{i,MCR} &\ge 7 \cdot y_{1} \\
+\sum_{i \in I_k} S_{i,Crossing} \cdot x_{i,MC}  &\ge 7 \cdot y_{1} \\
+\sum_{i \in I_k} S_{i,Crossing} \cdot x_{i,MCL} &\ge 7 \cdot y_{1}
+\end{aligned}
 $$
