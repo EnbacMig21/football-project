@@ -23,9 +23,11 @@ $$
 \sum_{i \in I} S_{iq_{1}} *x_{ij_{1}} \ge grade_{j_{1}}*y
 $$
 
+
 $$
 \sum_{i \in I} S_{iq_{2}} *x_{ij_{2}} \ge grade_{j_{2}}*(1-y)
 $$
+
 
 $$
 \text{với }y \in \{0, 1\}
