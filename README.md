@@ -16,7 +16,7 @@ Bóng đá (soccer hay football) là những tên gọi phổ biến nhất cho 
 ### Tại sao cần xây dựng mô hình tối ưu hóa 
 Trong bóng đá truyền thống, việc lựa chọn đội hình thường dựa vào trực giác và kinh nghiệm cá nhân của Huấn luyện viên. Tuy nhiên, khi bóng đá trở thành một ngành công nghiệp trị giá hàng tỷ đô la, sai lầm trong việc dùng người hoặc chuyển nhượng có thể gây ra thiệt hại khổng lồ. Việc xây dựng mô hình tối ưu hóa là cấp thiết vì những lý do sau:
 - #### Loại bỏ định kiến cá nhân (Bias)
-  Mọi HLV đều có những thiên kiến nhất định về lối chơi hoặc sự yêu thích dành cho một vài cầu thủ. Mô hình toán học đóng vai trò như một "trọng tài khách quan", đánh giá cầu thủ dựa trên các con số cụ thể (bàn thắng kỳ vọng xG, tỷ lệ chuyền bóng, khả năng đánh chặn...), từ đó tìm ra những "viên ngọc thô" bị đánh giá thấp nhưng có đóng góp cực lớn vào lối chơi chung.
+  Mọi HLV đều có những ý kiến nhất định về lối chơi hoặc sự yêu thích dành cho một vài cầu thủ. Mô hình toán học đóng vai trò như một "trọng tài khách quan", đánh giá cầu thủ dựa trên các con số cụ thể (bàn thắng kỳ vọng xG, tỷ lệ chuyền bóng, khả năng đánh chặn...), từ đó tìm ra những "viên ngọc thô" bị đánh giá thấp nhưng có đóng góp cực lớn vào lối chơi chung.
 - #### Giải quyết bài toán ràng buộc (Constraints Mapping)
   Việc chọn đội hình không đơn giản là đưa 11 người giỏi nhất vào sân. Nó là một bài toán tối ưu với hàng loạt ràng buộc thực tế:
 Ngân sách: Tổng lương hoặc giá trị chuyển nhượng không được vượt quá quỹ của CLB.
@@ -24,6 +24,14 @@ Ngân sách: Tổng lương hoặc giá trị chuyển nhượng không được
 Sự tương thích: Các cầu thủ phải có bộ kỹ năng bổ trợ cho nhau (ví dụ: một tiền vệ kiến thiết cần đi đôi với một tiền đạo chạy chỗ thông minh).
 
 Chiến thuật: Phải đảm bảo đủ vị trí (GK, DF, MF, FW) theo sơ đồ đề ra.
+- #### Quản trị rủi ro và Hiệu quả kinh tế
+Trên thị trường chuyển nhượng, các CLB lớn thường phải đối mặt với tình trạng "thổi giá". Mô hình tối ưu giúp xác định giá trị thực của cầu thủ dựa trên hiệu suất (Performance-to-Price ratio). Điều này giúp các đội bóng có ngân sách hạn hẹp vẫn có thể cạnh tranh sòng phẳng với các "ông lớn" bằng cách tối ưu hóa từng đồng vốn bỏ ra.
+- #### Liên hệ ứng dụng trong thực tế
+Trường hợp của Brentford và Brighton (Ngoại hạng Anh): Đây là những ví dụ điển hình nhất. Họ sử dụng các mô hình tối ưu hóa để tìm ra các cầu thủ từ các giải đấu cấp thấp với giá rẻ, nhưng có chỉ số tương đương với các ngôi sao lớn. Sau đó, họ bán lại với giá cao gấp 10-20 lần sau khi tối ưu hóa vị trí thi đấu của họ.
+
+Liverpool dưới thời Jürgen Klopp: Sự thành công của Liverpool gắn liền với bộ phận phân tích dữ liệu của Ian Graham. Mô hình của họ không chỉ tìm cầu thủ giỏi, mà tìm cầu thủ "tối ưu nhất" cho hệ thống Gegenpressing, giúp họ giành Champions League và Premier League với mức chi tiêu thông minh.
+
+Phân tích đối thủ: Các đội bóng sử dụng mô hình để giả lập các đội hình khác nhau của đối thủ trong trận đấu tới, từ đó tìm ra phương án tối ưu để khắc chế dựa trên điểm yếu về chỉ số của hàng phòng ngự đối phương.
 ## Mục tiêu 
 Trong bối cảnh bóng đá hiện đại, việc xây dựng đội hình tối ưu không chỉ dựa trên kinh nghiệm và cảm nhận của huấn luyện viên, mà ngày càng được hỗ trợ bởi các phương pháp phân tích dữ liệu và mô hình toán học. Việc tận dụng nguồn dữ liệu phong phú từ các trận đấu thực tế để đưa ra quyết định khách quan và khoa học đang trở thành một hướng nghiên cứu đầy tiềm năng. Từ đó giúp các đội bóng có những lựa chọn đúng đắn khi tham gia vào thị trường chuyển nhượng, tránh dư thừa hoặc thiếu hụt tại các vị trí.
 
