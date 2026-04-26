@@ -44,7 +44,7 @@ $$
 $$
 
 ## Ví dụ minh họa 
-- # Ví dụ một vị trí nhiều kịch bản
+- ### Ví dụ một vị trí nhiều kịch bản
 Xét kỹ năng tạt bóng của vị trí MC với 3 kịch bản :
 Tham số: q = Crossing, N = 3.
 Ràng buộc: 
@@ -65,7 +65,7 @@ $$
 y_{1} + y_{2}+y_{3}=1,y_{1} ,y_{2},y_{3} \in \{0,1\}
 $$
 
-- # Kịch bản về từng nhóm kịch bản chiến thuật
+- ### Kịch bản về từng nhóm kịch bản chiến thuật
 Xét kịch bản trong nhóm tạt bóng: yêu cầu ít nhất một tiền vệ trung tâm (MCR, MC hoặc MCL) có kỹ năng tạt bóng ≥ 7.
 
 Tham số: j ∈ {MCR, MC, MCL}, q = Crossing
