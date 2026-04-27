@@ -14,3 +14,21 @@ Với các kịch bản:
 - Crosses: Ta xét các vị trí DC và DR
 - Interceptions: Ta xét DCR, DR, DCL, DL
 - Passes: MCR, MC, MCL
+## Sau khi ta chạy chương trình với bộ dữ liệu thực tế 
+### [player_position_scores.csv](https://github.com/EnbacMig21/football-project/blob/main/processing-raw-data/processed/player_position_scores.csv): bảng chứa điểm đánh giá từng cầu thủ Ajax khi chơi ở tất cả các vị trí trên sân của mùa giải 2010-2011.
+| Vị trí     	| Tên cầu thủ | Số điểm |
+|--------------	|----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------|
+| GK | Steekelenburg | 103.21 |
+| DR | Sulejmani | 80.74 |
+| DCR | Alderweireld | 102.48 |
+| DCL | Vertonghen | 103.08 |
+| DL | Anita | 62.41 |
+| MCR | Zeeuw | 68.76 |
+| MC | de Jong | 58.75 |
+| MCL | Wiel | 49.46 |
+| FR | Eriksen | 76.85 |
+| FC | Ebecilio|  60.36 |
+| FL |  Suarez | 55.42 |
+
+
+Total Score: 821.52
