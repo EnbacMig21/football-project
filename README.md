@@ -42,9 +42,11 @@ Tóm lại, mô hình sẽ giúp các đội bóng đánh giá được cầu th
 ## Giải thích 
 Các giải thích về cách đọc repo có thể được tìm thấy trong phần này.
 
-File đầu tiên cần đọc là phần tiền xử lý dữ liệu, hay processing raw data . Tại đây, có hai tệp chính: dữ liệu gốc – dùng để kiểm tra dữ liệu ban đầu, và dữ liệu đã qua xử lý – giúp theo dõi cách dữ liệu được biến đổi thông qua tệp .py. Tiếp theo là model_formulation mô tả mô hình kèm các ràng buộc cho mô hình tối ưu hóa đơn giản. Đồng thời, file này cũng thể hiện kết quả của mô hình đơn giản khi vận hành mô hình. Cuối cùng là , nơi chứa các bảng dimensions-facts được tạo ra khi phân tích bằng PBI nhằm tối ưu hiệu suất phần mềm. Tại đây, có thể tìm thấy dữ liệu gốc ban đầu cùng với cơ sở dữ liệu quan hệ mới được xây dựng. Quan trọng nhất, phần phân tích, kể chuyện, mô tả và đề xuất đều được trình bày trong cùng một file này.
+File đầu tiên cần đọc là phần tiền xử lý dữ liệu, hay processing raw data . Tại đây, có hai tệp chính: dữ liệu gốc – dùng để kiểm tra dữ liệu ban đầu, và dữ liệu đã qua xử lý – giúp theo dõi cách dữ liệu được biến đổi thông qua tệp .py. Tiếp theo là model_formulation mô tả mô hình kèm các ràng buộc cho mô hình tối ưu hóa đơn giản. Đồng thời, file này cũng thể hiện kết quả của mô hình đơn giản khi vận hành mô hình. Cuối cùng là team_profiling_extension, nơi mở rộng mô hình và phát triển thêm các kịch bản chiến thuật . Tại đây, có thể tìm thấy dữ liệu đã qua xử lý và kết quả khi thực hiện mô hình với các kịch bản, yêu cầu mới.
 Mỗi file đều có kèm một file README nên được đọc trước khi nghiên cứu các nội dung bên trong file đó.
+
 Các công nghệ được sử dụng trong bài bao gồm:
-Excel (.csv): chứa tệp dữ liệu gốc.
-Python: công nghệ chính được xây dựng và vận hành mô hình.
+
+- Excel (.csv): chứa tệp dữ liệu gốc.
+- Python: công nghệ chính được xây dựng và vận hành mô hình.
 ## Lời kết 
