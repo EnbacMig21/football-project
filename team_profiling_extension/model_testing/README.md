@@ -3,3 +3,7 @@
 
 [team_profile (1).csv](https://github.com/EnbacMig21/football-project/blob/main/team_profiling_extension/model_testing/team_profile%20(1).csv) : Ghi các kịch bản yêu cầu thêm
 
+| Tên cột | Ý nghĩa  |
+| --------------| -------------|
+| Scenario | 
+,RequiredSkill,Grade
