@@ -5,5 +5,5 @@
 
 | Tên cột | Ý nghĩa  |
 | --------------| -------------|
-| Scenario | 
-,RequiredSkill,Grade
+| Scenario | Một trong 2 kịch bản, bao gồm Shots, Crosses, Interceptions, Passes) | 
+| RequiredSkill | Grade
