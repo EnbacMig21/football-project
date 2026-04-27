@@ -5,5 +5,12 @@
 
 | Tên cột | Ý nghĩa  |
 | --------------| -------------|
-| Scenario | Một trong 2 kịch bản, bao gồm Shots, Crosses, Interceptions, Passes) | 
-| RequiredSkill | Grade
+| Scenario | Một trong 4 kịch bản, bao gồm Shots, Crosses, Interceptions, Passes | 
+| RequiredSkill | Kĩ năng yêu cầu |
+| Grade | Ngưỡng điểm tối thiểu của kĩ năng |
+
+Với các kịch bản: 
+- Shots: Ta xét các vị trí tấn công như FR, FC, FL.
+- Crosses: Ta xét các vị trí DC và DR
+- Interceptions: Ta xét DCR, DR, DCL, DL
+- Passes: MCR, MC, MCL
