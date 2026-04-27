@@ -42,11 +42,24 @@ Tóm lại, mô hình sẽ giúp các đội bóng đánh giá được cầu th
 ## Giải thích 
 Các giải thích về cách đọc repo có thể được tìm thấy trong phần này.
 
-File đầu tiên cần đọc là phần tiền xử lý dữ liệu, hay processing raw data . Tại đây, có hai tệp chính: dữ liệu gốc – dùng để kiểm tra dữ liệu ban đầu, và dữ liệu đã qua xử lý – giúp theo dõi cách dữ liệu được biến đổi thông qua tệp .py. Tiếp theo là model_formulation mô tả mô hình kèm các ràng buộc cho mô hình tối ưu hóa đơn giản. Đồng thời, file này cũng thể hiện kết quả của mô hình đơn giản khi vận hành mô hình. Cuối cùng là team_profiling_extension, nơi mở rộng mô hình và phát triển thêm các kịch bản chiến thuật . Tại đây, có thể tìm thấy dữ liệu đã qua xử lý và kết quả khi thực hiện mô hình với các kịch bản, yêu cầu mới.
+File đầu tiên cần đọc là phần tiền xử lý dữ liệu, hay processing raw data. Tại đây, có hai tệp chính: dữ liệu gốc – dùng để kiểm tra dữ liệu ban đầu, và dữ liệu đã qua xử lý – giúp theo dõi cách dữ liệu được biến đổi thông qua tệp .py. Tiếp theo là model_formulation mô tả mô hình kèm các ràng buộc cho mô hình tối ưu hóa đơn giản. Đồng thời, file này cũng thể hiện kết quả của mô hình đơn giản khi vận hành mô hình. Cuối cùng là team_profiling_extension, nơi mở rộng mô hình và phát triển thêm các kịch bản chiến thuật . Tại đây, có thể tìm thấy dữ liệu đã qua xử lý và kết quả khi thực hiện mô hình với các kịch bản, yêu cầu mới.
 Mỗi file đều có kèm một file README nên được đọc trước khi nghiên cứu các nội dung bên trong file đó.
 
 Các công nghệ được sử dụng trong bài bao gồm:
 
-- Excel (.csv): chứa tệp dữ liệu gốc.
+- Excel (.csv): chứa tệp dữ liệu chung.
 - Python: công nghệ chính được xây dựng và vận hành mô hình.
 ## Lời kết 
+Dự án này là kết quả của quá trình tự nghiên cứu và niềm đam mê ứng dụng các mô hình toán học vào các bài toán thực tế của em. Với tư cách là một sinh viên chuyên ngành Toán - Tin tại trường Đại học Khoa học Tự nhiên, em tin rằng mọi vấn đề phức tạp trong vận hành hay kinh doanh đều có thể được tối ưu hóa thông qua dữ liệu và các thuật toán phù hợp.
+
+Dù đây mới chỉ là những bước đi đầu tiên trong việc xây dựng mô hình, dự án đã giúp em rèn luyện tư duy logic, kỹ năng xử lý dữ liệu và khả năng lập trình Python một cách bài bản. Em rất mong nhận được những ý kiến đóng góp từ các anh chị và các bạn độc giả để mô hình này ngày càng hoàn thiện và thực tế hơn.
+
+Em xin chân thành cảm ơn mọi người đã dành thời gian theo dõi dự án này. Hy vọng những chia sẻ này có thể mang lại một góc nhìn mới mẻ về việc kết hợp giữa toán học và bóng đá.
+
+Thông tin liên hệ:
+
+- Tác giả: Nguyễn Văn Bình
+
+- Email: binhnguyenvan422@gmail.com
+
+- GitHub: https://github.com/EnbacMig21
