@@ -14,7 +14,12 @@ Với các kịch bản:
 - Crosses: Ta xét các vị trí DC và DR
 - Interceptions: Ta xét DCR, DR, DCL, DL
 - Passes: MCR, MC, MCL
-## Sau khi ta chạy chương trình với bộ dữ liệu thực tế 
+## Sau khi ta vận hành mô hình với bộ dữ liệu thực tế 
+Ta giả sử yêu cầu về [kịch bản](https://github.com/EnbacMig21/football-project/blob/main/team_profiling_extension/model_testing/team_profile%20(1).csv)
+- Với Shots: yêu cầu điểm kĩ năng Finishing tổi thiểu là 10
+- Với Crosses: yêu cầu điểm kĩ năng Cross tổi thiểu là 10
+- Với Interceptions: yêu cầu điểm kĩ năng Interceptions tổi thiểu là 10
+- Với Passes: yêu cầu điểm kĩ năng Short pass tổi thiểu là 10
 ### [player_position_scores.csv](https://github.com/EnbacMig21/football-project/blob/main/processing-raw-data/processed/player_position_scores.csv): bảng chứa điểm đánh giá từng cầu thủ Ajax khi chơi ở tất cả các vị trí trên sân của mùa giải 2010-2011.
 | Vị trí     	| Tên cầu thủ | Số điểm |
 |--------------	|----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------|
