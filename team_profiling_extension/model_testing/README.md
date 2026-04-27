@@ -15,7 +15,7 @@ Với các kịch bản:
 - Interceptions: Ta xét DCR, DR, DCL, DL
 - Passes: MCR, MC, MCL
 ## Sau khi ta vận hành mô hình với bộ dữ liệu thực tế 
-Ta giả sử yêu cầu về [kịch bản](https://github.com/EnbacMig21/football-project/blob/main/team_profiling_extension/model_testing/team_profile%20(1).csv)
+Ta giả sử yêu cầu về [kịch bản chiến thuật](https://github.com/EnbacMig21/football-project/blob/main/team_profiling_extension/model_testing/team_profile%20(1).csv)
 - Với Shots: yêu cầu điểm kĩ năng Finishing tổi thiểu là 10
 - Với Crosses: yêu cầu điểm kĩ năng Cross tổi thiểu là 10
 - Với Interceptions: yêu cầu điểm kĩ năng Interceptions tổi thiểu là 10
