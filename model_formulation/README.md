@@ -64,16 +64,16 @@ Trong đó:
 | Vị trí     	| Tên cầu thủ | Số điểm |
 |--------------	|----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------|
 | GK | Steekelenburg | 103.21 |
-| DR | Sulejmani | 80.74 |
+| DR | Wiel | 89.99 |
 | DCR | Alderweireld | 102.48 |
 | DCL | Vertonghen | 103.08 |
 | DL | Anita | 62.41 |
 | MCR | Zeeuw | 68.76 |
-| MC | de Jong | 58.75 |
-| MCL | Wiel | 49.46 |
-| FR | Eriksen | 76.85 |
+| MC | Eriksen | 66.77 |
+| MCL | de Jong | 44.9 |
+| FR | Sulejmani | 80.26 |
 | FC | Ebecilio|  60.36 |
 | FL |  Suarez | 55.42 |
 
 
-Total Score: 821.52
+Total Score: 838.64
